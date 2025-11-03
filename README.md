@@ -38,7 +38,10 @@
 - **[Claude Code](https://claude.ai/code):** Full-codebase awareness, agentic edit/test/PR flow in terminal. Suitable for highly automated project workflows.
 - **[Gemini CLI](https://ai.google.dev/gemini-api/docs/cli):** Google command-line flagship, 1M context, multimodal chat and robust Shell scripting automation.
 - **[Aider](https://aider.chat/):** Terminal Git-integrated pair programmer, high Swe-bench scores, focused on patching and smart code navigation.
+- **[Cosine CLI](https://cosine.sh/cli):** Autonomous AI engineer in your terminal with full local tool access. Plans, writes, tests, and iterates like a real developer. Features cross-surface continuity between terminal and web, runs in your actual environment with access to local files, builds, and tests. No context switching required.
 - **[Goose](https://github.com/Squadrick/goose):** Extensible open-source CLI agent, plugin architecture, multi-model support, ideal for distributed code workflows.
+- **[Kode](https://github.com/shareAI-lab/Kode):** Open-source multi-model CLI agent supporting GLM, Qwen, Kimi, DeepSeek, and more. Features true multi-model collaboration with intelligent task distribution, expert model consultation (AskExpertModel tool), and parallel subagent processing. Tab key quick model switching and flexible model allocation for different purposes (main, task, reasoning, quick).
+- **[Factory CLI](https://factory.ai/product/ide):** AI Droids for terminal and IDE with multi-model support (Claude, GPT, Gemini). Features adjustable autonomy levels, agentic search for million-line codebases, and cross-platform context memory. Works natively in VS Code, JetBrains, Vim, and more with enterprise-grade security.
 - **[OpenCode](https://github.com/opencodeinterpret/opencode):** Native terminal agent with LSP and dozens of LLMs. Suitable for polyglot projects and multi-model integration.
 - **[Warp](https://www.warp.dev/):** AI-powered terminal, natural language commands and smart autocompletion.
 - **[Codex CLI](https://openai.com/index/openai-codex/):** OpenAI's official tool, lightweight and fast terminal-based codegen.
@@ -47,7 +50,8 @@
 - **[Groq Code CLI](https://github.com/build-with-groq/groq-code-cli):** Extensible plugin framework for workflow automation in CLI, fully customizable.
 - **[Amp](https://ampcode.com/):** Autonomous reasoning and editing, ideal for multi-model and agentic code tasks in the terminal.
 - **[iflow CLI](https://github.com/iflow-ai/iflow-cli):** Intelligent workflow automation CLI tool for developers, providing AI-powered task orchestration and streamlined development processes in the terminal.
-- **[Qwen3-Coder](https://github.com/QwenLM/Qwen3-Coder):** Advanced coding model from Alibaba Cloud, supporting multiple programming languages with strong code understanding, generation, and debugging capabilities. Features fine-tuned models for various coding tasks and excellent performance on code benchmarks.
+- **[Qoder CLI](https://qoder.com/cli):** Command-line version of Qoder, bringing intelligent code generation and AI programming assistance to the terminal with multi-language support and smart refactoring capabilities.
+- **[qwen-code](https://github.com/QwenLM/qwen-code):** Terminal-based coding agent from Alibaba Cloud that lives in the digital world. Features full codebase awareness, OAuth authentication, multi-model support, and strong code understanding capabilities. Supports code generation, debugging, and refactoring with 1M context window and vision model integration.
 - **[Auggie](https://augmentcode.com/cli):** Command-line version of Augment Code, bringing enterprise-grade AI coding assistance to the terminal with large context windows and regulatory compliance features.
 
 
@@ -70,12 +74,18 @@
 
 ## 🌐 Web-Based Development Platforms
 
+- **[Cosine](https://cosine.sh/):** Autonomous AI coding agent powered by Genie 2, designed to complete tasks end-to-end without human supervision. Features asynchronous task assignment, multi-agent deployment, and workflow integrations with Slack, Jira, and Linear. Achieves 72% on SWE-Lancer benchmark, leading in production-grade tasks.
 - **[v0 (Vercel)](https://v0.app/):** Natural language to React UI, built-in shadcn/ui, dead-simple frontend app prototyping.
 - **[Bolt.new (StackBlitz)](https://bolt.new/):** Full-stack app creation/deployment in-browser, leverages WebContainers, no local tooling required.
 - **[Lovable](https://lovable.dev/):** No-code builder for instant full-stack web apps from natural language.
 - **[Replit AI Agent/Ghostwriter](https://replit.com/ai):** Browser IDE, multi-lingual coding, on-the-fly explanation and bug fixing, real-time collaboration.
 - **[Knack](https://www.knack.com/):** Automated code/data-driven dev, optimized for speed/quality/team use cases.
 - **[CodeWP](https://codewp.ai/):** AI site builder for WordPress, end-to-end generation and deployment.
+- **[Figma Make](https://www.figma.com/):** Figma's AI-powered feature that creates functional prototypes and web apps from natural language prompts. Automatically generates frontend and backend code with Supabase integration for backend services.
+- **[Base44](https://base44.com/):** AI-powered no-code platform for building web and mobile apps through natural language conversations. Features built-in database, authentication, storage, analytics, and email functionality with seamless external service integration.
+- **[Conductor](https://conductor.build/):** AI-powered development platform with automated code generation, error fixing, and batch refactoring capabilities. Integrates with GitHub, GitLab, AWS CodeCommit, Azure DevOps, and BitBucket for streamlined workflows.
+- **[Aura](https://www.aura.build/):** AI-enhanced development platform offering real-time collaboration, intelligent code analysis, and automated optimization for building high-performance applications.
+- **[Verdent](https://www.verdent.ai/):** Cloud-based AI development platform focused on sustainable and efficient application development with AI-driven code reviews and performance optimization.
 
 
 ## 🏢 Enterprise & Platform Solutions

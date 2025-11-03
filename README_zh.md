@@ -37,7 +37,10 @@
 - **[Claude Code](https://claude.ai/code):** 全代码库感知，终端中的智能体编辑/测试/PR 流程。适合高度自动化的项目工作流。
 - **[Gemini CLI](https://ai.google.dev/gemini-api/docs/cli):** 谷歌命令行旗舰产品，100万上下文，多模态聊天和强大的 Shell 脚本自动化。
 - **[Aider](https://aider.chat/):** 终端 Git 集成的结对编程工具，高 Swe-bench 分数，专注于补丁和智能代码导航。
+- **[Cosine CLI](https://cosine.sh/cli):** 终端中的自主 AI 工程师，具备完整的本地工具访问能力。能够像真实开发者一样规划、编写、测试和迭代。具备终端和网页之间的跨平台连续性，在真实环境中运行，可访问本地文件、构建和测试。无需切换上下文。
 - **[Goose](https://github.com/Squadrick/goose):** 可扩展的开源 CLI 智能体，插件架构，多模型支持，适合分布式代码工作流。
+- **[Kode](https://github.com/shareAI-lab/Kode):** 开源多模型 CLI 智能体，支持 GLM、Qwen、Kimi、DeepSeek 等。具备真正的多模型协作能力，智能任务分配、专家模型咨询（AskExpertModel 工具）和并行子代理处理。Tab 键快速切换模型，灵活分配不同用途的模型（主要、任务、推理、快速）。
+- **[Factory CLI](https://factory.ai/product/ide):** 面向终端和 IDE 的 AI Droids，支持多模型（Claude、GPT、Gemini）。具备可调节的自主性级别、百万行代码库的智能搜索和跨平台上下文记忆。原生支持 VS Code、JetBrains、Vim 等，具备企业级安全性。
 - **[OpenCode](https://github.com/opencodeinterpret/opencode):** 原生终端智能体，支持 LSP 和数十种 LLM。适合多语言项目和多模型集成。
 - **[Warp](https://www.warp.dev/):** AI 驱动的终端，自然语言命令和智能自动补全。
 - **[Codex CLI](https://openai.com/index/openai-codex/):** OpenAI 官方工具，轻量快速的终端代码生成。
@@ -46,7 +49,8 @@
 - **[Groq Code CLI](https://github.com/build-with-groq/groq-code-cli):** 可扩展插件框架，CLI 工作流自动化，完全可定制。
 - **[Amp](https://ampcode.com/):** 自主推理和编辑，适合终端中的多模型和智能体代码任务。
 - **[iflow CLI](https://github.com/iflow-ai/iflow-cli):** 智能工作流自动化CLI工具，为开发者提供AI驱动的任务编排和终端中的简化开发流程。
-- **[Qwen3-Coder](https://github.com/QwenLM/Qwen3-Coder):** 阿里云开发的先进编程模型，支持多种编程语言，具备强大的代码理解、生成和调试能力。提供针对各种编程任务的微调模型，在代码基准测试中表现出色。
+- **[Qoder CLI](https://qoder.com/cli):** Qoder 的命令行版本，将智能代码生成和 AI 编程辅助带到终端，支持多语言和智能重构功能。
+- **[qwen-code](https://github.com/QwenLM/qwen-code):** 阿里云开发的终端编程智能体，生活在数字世界中。具备全代码库感知、OAuth 认证、多模型支持和强大的代码理解能力。支持代码生成、调试和重构，拥有 100 万上下文窗口和视觉模型集成。
 - **[Auggie](https://augmentcode.com/cli):** Augment Code 的命令行版本，将企业级AI编程辅助带到终端，具有大上下文窗口和法规遵从性功能。
 
 ## 🔌 VS Code 扩展插件
@@ -66,12 +70,18 @@
 
 ## 🌐 在线开发平台
 
+- **[Cosine](https://cosine.sh/):** 由 Genie 2 驱动的自主 AI 编码代理，设计用于端到端完成任务而无需人工监督。具备异步任务分配、多智能体部署，以及与 Slack、Jira、Linear 的工作流集成。在 SWE-Lancer 基准测试中达到 72%，在生产级任务中领先。
 - **[v0 (Vercel)](https://v0.app/):** 自然语言转 React UI，内置 shadcn/ui，极简前端应用原型开发。
 - **[Bolt.new (StackBlitz)](https://bolt.new/):** 浏览器内全栈应用创建/部署，利用 WebContainers，无需本地工具。
 - **[Lovable](https://lovable.dev/):** 无代码构建器，从自然语言即时创建全栈网络应用。
 - **[Replit AI Agent/Ghostwriter](https://replit.com/ai):** 浏览器 IDE，多语言编程，即时解释和错误修复，实时协作。
 - **[Knack](https://www.knack.com/):** 自动化代码/数据驱动开发，针对速度/质量/团队用例优化。
 - **[CodeWP](https://codewp.ai/):** WordPress 的 AI 网站构建器，端到端生成和部署。
+- **[Figma Make](https://www.figma.com/):** Figma 的 AI 驱动功能，通过自然语言提示创建功能性原型和 Web 应用。自动生成前端和后端代码，并支持 Supabase 集成。
+- **[Base44](https://base44.com/):** AI 驱动的无代码平台，通过自然语言对话构建 Web 和移动应用。内置数据库、认证、存储、分析和邮件功能，支持无缝外部服务集成。
+- **[Conductor](https://conductor.build/):** AI 驱动的开发平台，具备自动化代码生成、错误修复和批量重构能力。集成 GitHub、GitLab、AWS CodeCommit、Azure DevOps 和 BitBucket，实现流畅工作流。
+- **[Aura](https://www.aura.build/):** AI 增强的开发平台，提供实时协作、智能代码分析和自动化优化，用于构建高性能应用。
+- **[Verdent](https://www.verdent.ai/):** 基于云的 AI 开发平台，专注于可持续和高效的应用开发，具备 AI 驱动的代码审查和性能优化。
 
 ## 🏢 企业级解决方案
 

@@ -26,9 +26,10 @@
 
 ## 🚀 AI-Enhanced IDEs & Editors
 
-- **[Cursor](https://cursor.com/):** AI-first coding editor (VS Code fork) with intelligent completion, agentic refactoring, and support for multiple LLMs. Enables conversational code navigation and "code-aware" context for accurate suggestions. Suited for deep AI integration and full-project workflows.
+- **[Cursor](https://cursor.com/):** AI-first coding editor and agent platform with code-aware chat, Composer, cloud/background agents, automations, Jira handoff, shared canvases, and `/loop` for local long-running agents.
 - **[Windsurf](https://windsurf.codeium.com/):** Multi-IDE support from Codeium, with "Cascade Flow" agents for multi-step automation, live preview for UI, and robust team collaboration. Especially useful for fast prototyping, but often loses context in large projects.
 - **[Kiro](https://kiro.dev/):** AWS experimental IDE with spec-driven scaffolding for microservices and cloud-native solutions, making end-to-end development and deployment frictionless.
+- **[Google Antigravity](https://antigravity.google/):** Google's agent-first development platform with Antigravity 2.0 desktop app, CLI, and SDK. Orchestrates parallel agents, dynamic subagents, scheduled tasks, and integrations across AI Studio, Android, and Firebase.
 - **[CodeBuddy (Tencent Cloud)](https://cloud.tencent.com/product/codebuddy):** AI-driven IDE for automated frontend/backend/database generation, integrated with multiple LLM choices and Figma-to-code capabilities.
 - **[Trae](https://trae.ai/):** ByteDance automated builder, syncs Figma design to code, and specializes in low-code prototyping for small teams.
 - **[Zed](https://zed.dev/):** Rust-powered superfast editor with 120fps rendering, native AI suggestions, and robust collaboration for frontend professionals.
@@ -42,7 +43,7 @@
 
 ## 💻 Terminal-Based AI Agents
 
-- **[Claude Code](https://claude.ai/code):** Full-codebase awareness, agentic edit/test/PR flow in terminal. Suitable for highly automated project workflows.
+- **[Claude Code](https://claude.ai/code):** Full-codebase awareness and agentic edit/test/PR workflows across terminal, IDE, and background task surfaces. Dynamic workflows let it plan large tasks, run parallel subagents, and verify outputs before reporting back.
 - **[Gemini CLI](https://ai.google.dev/gemini-api/docs/cli):** Google command-line flagship, 1M context, multimodal chat and robust Shell scripting automation.
 - **[Aider](https://aider.chat/):** Terminal Git-integrated pair programmer, high Swe-bench scores, focused on patching and smart code navigation.
 - **[Cosine CLI](https://cosine.sh/cli):** Autonomous AI engineer in your terminal with full local tool access. Plans, writes, tests, and iterates like a real developer. Features cross-surface continuity between terminal and web, runs in your actual environment with access to local files, builds, and tests. No context switching required.
@@ -52,6 +53,7 @@
 - **[OpenCode](https://github.com/opencodeinterpret/opencode):** Native terminal agent with LSP and dozens of LLMs. Suitable for polyglot projects and multi-model integration.
 - **[Warp](https://www.warp.dev/):** AI-powered terminal, natural language commands and smart autocompletion.
 - **[Codex CLI](https://openai.com/index/openai-codex/):** OpenAI's official tool, lightweight and fast terminal-based codegen.
+- **[GitHub Copilot CLI](https://github.com/features/copilot/cli):** Terminal-native GitHub coding agent with `/plan`, background delegation, MCP/plugins/skills, and cross-session memory. Designed to move from issues to pull requests without leaving the shell.
 - **[Crush](https://github.com/charmbracelet/crush):** Charmbracelet's agent, multi-model and LSP, highly customizable terminal-based coding.
 - **[Cursor CLI](https://cursor.com/en/cli):** Shares context with Cursor IDE, supports advanced real-time code reviews, writing, and agentic guidance.
 - **[Groq Code CLI](https://github.com/build-with-groq/groq-code-cli):** Extensible plugin framework for workflow automation in CLI, fully customizable.
@@ -65,7 +67,7 @@
 
 ## 🔌 VS Code Extensions
 
-- **[GitHub Copilot](https://github.com/features/copilot):** Context-aware multi-model code suggestions, supports 14 languages, integrates with VS Code, JetBrains, and more. Advanced chat and enterprise features.
+- **[GitHub Copilot](https://github.com/features/copilot):** Multi-model assistant spanning VS Code, GitHub.com, mobile, and background coding-agent workflows. Supports chat/edit/agent modes, code review, model selection, and enterprise governance.
 - **[Cline](https://github.com/cline/cline):** Autonomous AI agent with file/web editing, fully open-source and extensible, supports CLI mode.
 - **[Continue](https://github.com/continuedev/continue):** Open-source GPT/Claude/Gemini integration, inline code chat, file/project contextual support, API/model choice.
 - **[RooCode](https://github.com/RooCodeInc/Roo-Code):** Agent teams allow concurrent multi-model automation, premium API support.
@@ -86,6 +88,7 @@
 - **[Bolt.new (StackBlitz)](https://bolt.new/):** Full-stack app creation/deployment in-browser, leverages WebContainers, no local tooling required.
 - **[Lovable](https://lovable.dev/):** No-code builder for instant full-stack web apps from natural language.
 - **[Replit AI Agent/Ghostwriter](https://replit.com/ai):** Browser IDE, multi-lingual coding, on-the-fly explanation and bug fixing, real-time collaboration.
+- **[Google AI Studio](https://aistudio.google.com/):** Google's prompt-to-production app builder powered by the Antigravity coding agent. Supports Firebase-backed apps, Workspace integrations, mobile idea capture, native Android app generation, Play test-track publishing, and export to Antigravity.
 - **[Knack](https://www.knack.com/):** Automated code/data-driven dev, optimized for speed/quality/team use cases.
 - **[CodeWP](https://codewp.ai/):** AI site builder for WordPress, end-to-end generation and deployment.
 - **[Figma Make](https://www.figma.com/):** Figma's AI-powered feature that creates functional prototypes and web apps from natural language prompts. Automatically generates frontend and backend code with Supabase integration for backend services.
@@ -102,6 +105,9 @@
 - **[Replit](https://replit.com/):** Multi-agent workspaces, natural language generation, multi-user collaboration.
 - **[Jules (Google)](https://jules.google/):** Automated pull requests, CI/CD and code repair integration.
 - **[Open SWE (LangGraph)](https://swe.langchain.com/):** Open-source enterprise agent platform, workflow customizability.
+- **[OpenHands](https://github.com/OpenHands/OpenHands):** Open-source, self-hostable AI software developer platform formerly known as OpenDevin. Agents can edit code, run commands, browse, and work through software tasks end-to-end with web, CLI, and enterprise deployment options.
+- **[Coder Agents](https://coder.com/blog/introducing-coder-agents):** Self-hosted, model-agnostic coding agents built into the Coder control plane. Provides centralized controls for models, prompts, workspaces, usage, MCP, skills, subagents, and background execution on customer infrastructure.
+- **[UiPath for Coding Agents](https://www.uipath.com/developers/coding-agents):** Enterprise automation platform layer for Claude Code, Codex, Gemini CLI, Cursor, and other coding agents. Lets agents build, review, test, and govern UiPath automations with RBAC, audit, and policy controls.
 - **[Amazon Q Developer](https://aws.amazon.com/q/developer/):** AWS-native coding agent, IDE integration, cloud/service support.
 - **[IBM CodeAssist](https://www.ibm.com/products/watsonx-code-assistant):** AI-powered mainframe developer automation, tailored for regulated industries.
 - **[Tabnine Enterprise](https://www.tabnine.com/):** Private cloud, compliance/security for large teams.
@@ -113,6 +119,7 @@
 - **[DeepCode (Snyk)](https://snyk.io/product/deepcode-ai/):** AI fast code security analysis and actionable fix recommendations.
 - **[Umami](https://umami.is/):** AI-driven frontend optimization/performance analytics.
 - **[TraceRoot AI](https://traceroot.ai/):** Bug location & patch suggestion, automatic root cause.
+- **[Chrome DevTools for agents](https://developer.chrome.com/docs/devtools/agents):** Stable Chrome DevTools MCP server, CLI, and agent skills that let coding agents inspect live browser state, debug runtime issues, emulate users, and run Lighthouse audits before shipping.
 - **[Blitz](https://blitzjs.com/):** Native Next.js AI plugin for rapid frontend dev.
 - **[BlackBox AI](https://blackbox.ai/):** Code completion plus security scan all-in-one.
 - **[ColDeco](https://coldeco.ai/):** Visual AI-generated code inspection and review.
@@ -179,6 +186,7 @@
 - **[ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills):** A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows.
 - **[muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering):** A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems.
 - **[garrytan/gstack](https://github.com/garrytan/gstack):** Garry Tan's current Claude Code setup with 15 opinionated tools covering CEO, designer, engineering management, release, docs, and QA roles.
+- **[Vercel Plugin for Coding Agents](https://vercel.com/changelog/introducing-vercel-plugin-for-coding-agents):** Official context plugin for Claude Code and Cursor that injects Vercel platform knowledge in real time. Ships 47+ skills, specialist agents, slash commands, and post-tool validation.
 - **[diet103/claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase):** Examples of Claude Code infrastructure with skill auto-activation, hooks, and agents.
 - **[OneRedOak/claude-code-workflows](https://github.com/OneRedOak/claude-code-workflows):** Battle-tested workflows and configurations distilled from heavy Claude Code usage in an AI-native startup context.
 - **[feiskyer/claude-code-settings](https://github.com/feiskyer/claude-code-settings):** Claude Code settings, commands, and agents for vibe coding.
@@ -188,6 +196,7 @@
 ## 🛠️ Visual Workflow Tooling
 
 - **[breaking-brake/cc-wf-studio](https://github.com/breaking-brake/cc-wf-studio):** A visual workflow editor for AI agents with natural-language editing, export, and run support.
+- **[Stitch](https://stitch.withgoogle.com/):** Google Labs' AI-native UI design canvas that turns natural language into high-fidelity interfaces. Supports rapid iteration, critique, and export toward downstream developer tools.
 - **[OleynikAleksandr/antigravity-subagents](https://github.com/OleynikAleksandr/antigravity-subagents):** Infrastructure that enables Antigravity IDE to utilize specialized sub-agents.
 
 <a id="historical-workflow-references"></a>

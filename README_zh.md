@@ -26,9 +26,10 @@
 
 ## 🚀 AI 增强型 IDE 和编辑器
 
-- **[Cursor](https://cursor.com/):** AI 优先的代码编辑器（VS Code 分支），具备智能补全、智能重构和多 LLM 支持。支持对话式代码导航和"代码感知"上下文，适合深度 AI 集成和全项目工作流。
+- **[Cursor](https://cursor.com/):** AI 优先的代码编辑器与 agent 平台，支持代码感知聊天、Composer、云端/后台 agents、automations、Jira 委派、共享 canvases，以及用于本地长运行 agents 的 `/loop`。
 - **[Windsurf](https://windsurf.codeium.com/):** Codeium 的多 IDE 支持工具，具备"级联流"智能体多步骤自动化、UI 实时预览和强大的团队协作功能。特别适合快速原型开发，但在大项目中容易丢失上下文。
 - **[Kiro](https://kiro.dev/):** AWS 实验性 IDE，具备规范驱动的微服务和云原生解决方案脚手架，使端到端开发和部署变得顺畅。
+- **[Google Antigravity](https://antigravity.google/):** 谷歌的 agent-first development platform，包含 Antigravity 2.0 桌面端、CLI 和 SDK。可编排并行 agents、dynamic subagents、定时任务，并与 AI Studio、Android 和 Firebase 集成。
 - **[腾讯云 CodeBuddy](https://cloud.tencent.com/product/codebuddy):** AI 驱动的 IDE，用于自动化前端/后端/数据库生成，集成多种 LLM 选择和 Figma 转代码功能。
 - **[Trae](https://trae.ai/):** 字节跳动的自动化构建工具，同步 Figma 设计到代码，专门针对小团队的低代码原型开发。
 - **[Zed](https://zed.dev/):** Rust 驱动的超高速编辑器，120fps 渲染、原生 AI 建议和强大的前端开发协作功能。
@@ -41,7 +42,7 @@
 
 ## 💻 终端 AI 编程助手
 
-- **[Claude Code](https://claude.ai/code):** 全代码库感知，终端中的智能体编辑/测试/PR 流程。适合高度自动化的项目工作流。
+- **[Claude Code](https://claude.ai/code):** 具备全代码库感知，可在终端、IDE 和后台任务场景中执行智能体编辑/测试/PR 流程。Dynamic workflows 可规划大型任务、运行并行 subagents，并在汇报前验证输出。
 - **[Gemini CLI](https://ai.google.dev/gemini-api/docs/cli):** 谷歌命令行旗舰产品，100万上下文，多模态聊天和强大的 Shell 脚本自动化。
 - **[Aider](https://aider.chat/):** 终端 Git 集成的结对编程工具，高 Swe-bench 分数，专注于补丁和智能代码导航。
 - **[Cosine CLI](https://cosine.sh/cli):** 终端中的自主 AI 工程师，具备完整的本地工具访问能力。能够像真实开发者一样规划、编写、测试和迭代。具备终端和网页之间的跨平台连续性，在真实环境中运行，可访问本地文件、构建和测试。无需切换上下文。
@@ -51,6 +52,7 @@
 - **[OpenCode](https://github.com/opencodeinterpret/opencode):** 原生终端智能体，支持 LSP 和数十种 LLM。适合多语言项目和多模型集成。
 - **[Warp](https://www.warp.dev/):** AI 驱动的终端，自然语言命令和智能自动补全。
 - **[Codex CLI](https://openai.com/index/openai-codex/):** OpenAI 官方工具，轻量快速的终端代码生成。
+- **[GitHub Copilot CLI](https://github.com/features/copilot/cli):** GitHub 的终端原生编码智能体，支持 `/plan`、后台委派、MCP/plugins/skills 与跨会话记忆。可直接从 issue 走到 PR，不用离开 shell。
 - **[Crush](https://github.com/charmbracelet/crush):** Charmbracelet 的智能体，多模型和 LSP，高度可定制的终端编码。
 - **[Cursor CLI](https://cursor.com/en/cli):** 与 Cursor IDE 共享上下文，支持高级实时代码审查、编写和智能体指导。
 - **[Groq Code CLI](https://github.com/build-with-groq/groq-code-cli):** 可扩展插件框架，CLI 工作流自动化，完全可定制。
@@ -62,7 +64,7 @@
 
 ## 🔌 VS Code 扩展插件
 
-- **[GitHub Copilot](https://github.com/features/copilot):** 上下文感知的多模型代码建议，支持 14 种语言，与 VS Code、JetBrains 等集成。高级聊天和企业功能。
+- **[GitHub Copilot](https://github.com/features/copilot):** 覆盖 VS Code、GitHub.com、移动端和后台 coding agent 的多模型助手。支持 chat/edit/agent 模式、代码审查、模型选择和企业级治理。
 - **[Cline](https://github.com/cline/cline):** 自主 AI 智能体，具备文件/网络编辑功能，完全开源可扩展，支持 CLI 模式。
 - **[Continue](https://github.com/continuedev/continue):** 开源 GPT/Claude/Gemini 集成，内联代码聊天，文件/项目上下文支持，API/模型选择。
 - **[RooCode](https://github.com/RooCodeInc/Roo-Code):** 智能体团队允许并发多模型自动化，高级 API 支持。
@@ -82,6 +84,7 @@
 - **[Bolt.new (StackBlitz)](https://bolt.new/):** 浏览器内全栈应用创建/部署，利用 WebContainers，无需本地工具。
 - **[Lovable](https://lovable.dev/):** 无代码构建器，从自然语言即时创建全栈网络应用。
 - **[Replit AI Agent/Ghostwriter](https://replit.com/ai):** 浏览器 IDE，多语言编程，即时解释和错误修复，实时协作。
+- **[Google AI Studio](https://aistudio.google.com/):** 由 Antigravity coding agent 驱动的 prompt-to-production 应用构建平台。支持 Firebase 后端、Workspace 集成、移动端灵感捕获、原生 Android 应用生成、Play 测试轨发布，以及导出到 Antigravity。
 - **[Knack](https://www.knack.com/):** 自动化代码/数据驱动开发，针对速度/质量/团队用例优化。
 - **[CodeWP](https://codewp.ai/):** WordPress 的 AI 网站构建器，端到端生成和部署。
 - **[Figma Make](https://www.figma.com/):** Figma 的 AI 驱动功能，通过自然语言提示创建功能性原型和 Web 应用。自动生成前端和后端代码，并支持 Supabase 集成。
@@ -97,6 +100,9 @@
 - **[Replit](https://replit.com/):** 多智能体工作空间，自然语言生成，多用户协作。
 - **[Jules (Google)](https://jules.google/):** 自动化拉取请求，CI/CD 和代码修复集成。
 - **[Open SWE (LangGraph)](https://swe.langchain.com/):** 开源企业智能体平台，工作流可定制性。
+- **[OpenHands](https://github.com/OpenHands/OpenHands):** 开源、可自托管的 AI 软件开发者平台，前身为 OpenDevin。Agents 可以编辑代码、运行命令、浏览网页，并通过 Web、CLI 和企业部署选项端到端处理软件任务。
+- **[Coder Agents](https://coder.com/blog/introducing-coder-agents):** 内置在 Coder control plane 中的自托管、模型无关 coding agents。集中管理模型、提示词、工作区、用量、MCP、skills、subagents 和后台执行，可运行在客户自有基础设施上。
+- **[UiPath for Coding Agents](https://www.uipath.com/developers/coding-agents):** 面向 Claude Code、Codex、Gemini CLI、Cursor 等 coding agents 的企业自动化平台层。让 agents 构建、审查、测试和治理 UiPath 自动化，并接入 RBAC、审计和策略控制。
 - **[Amazon Q Developer](https://aws.amazon.com/q/developer/):** AWS 原生编码智能体，IDE 集成，云/服务支持。
 - **[IBM CodeAssist](https://www.ibm.com/products/watsonx-code-assistant):** AI 驱动的大型机开发者自动化，为受监管行业量身定制。
 - **[Tabnine Enterprise](https://www.tabnine.com/):** 私有云，大型团队的合规/安全。
@@ -107,6 +113,7 @@
 - **[DeepCode (Snyk)](https://snyk.io/product/deepcode-ai/):** AI 快速代码安全分析和可操作的修复建议。
 - **[Umami](https://umami.is/):** AI 驱动的前端优化/性能分析。
 - **[TraceRoot AI](https://traceroot.ai/):** 错误定位和补丁建议，自动根因分析。
+- **[Chrome DevTools for agents](https://developer.chrome.com/docs/devtools/agents):** 稳定版 Chrome DevTools MCP server、CLI 和 agent skills，让 coding agents 检查真实浏览器状态、调试运行时问题、模拟用户，并在发布前运行 Lighthouse 审计。
 - **[Blitz](https://blitzjs.com/):** Next.js 原生 AI 插件，快速前端开发。
 - **[BlackBox AI](https://blackbox.ai/):** 代码补全加安全扫描一体化。
 - **[ColDeco](https://coldeco.ai/):** 可视化 AI 生成的代码检查和审查。
@@ -173,6 +180,7 @@
 - **[ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)：** 精选的 Claude Skills、资源与工具清单，用于定制 Claude AI 工作流。
 - **[muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering)：** 面向上下文工程、多智能体架构与生产级智能体系统的综合 Agent Skills 集合。
 - **[garrytan/gstack](https://github.com/garrytan/gstack)：** 复现 Garry Tan 当前的 Claude Code 配置：15 个带强观点的工具，分别扮演 CEO、设计师、工程经理、发布经理、文档工程师和 QA。
+- **[Vercel Plugin for Coding Agents](https://vercel.com/changelog/introducing-vercel-plugin-for-coding-agents)：** 面向 Claude Code 和 Cursor 的官方上下文插件，实时注入 Vercel 平台知识。内置 47+ skills、专用 agents、slash commands 和 post-tool 校验。
 - **[diet103/claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase)：** 展示 Claude Code 基础设施实践示例，包含 skill 自动激活、hooks 与 agents。
 - **[OneRedOak/claude-code-workflows](https://github.com/OneRedOak/claude-code-workflows)：** 作者长期重度使用 Claude Code 后沉淀出的最佳工作流与配置，基于 AI 原生创业实践经验。
 - **[feiskyer/claude-code-settings](https://github.com/feiskyer/claude-code-settings)：** 面向氛围编程（vibe coding）的 Claude Code 设置、命令与 agents。
@@ -182,6 +190,7 @@
 ## 🛠️ 可视化工作流工具
 
 - **[breaking-brake/cc-wf-studio](https://github.com/breaking-brake/cc-wf-studio)：** 面向 AI 智能体的可视化工作流编辑器，支持自然语言编辑、导出并运行工作流。
+- **[Stitch](https://stitch.withgoogle.com/)：** Google Labs 的 AI 原生 UI 设计画布，可把自然语言转成高保真界面，支持快速迭代、批注反馈，以及面向后续开发工具的导出。
 - **[OleynikAleksandr/antigravity-subagents](https://github.com/OleynikAleksandr/antigravity-subagents)：** 为 Antigravity IDE 提供专用子智能体基础设施。
 
 <a id="historical-workflow-references"></a>
